@@ -3,8 +3,11 @@ package recursion;
 public class CountDownTimer {
     public static void countDown(int n) {
         if (n!=0) {
+            // recursive case
             System.out.print(n+" ");
             countDown(n-1);
+        } else{
+            // base case
         }
     }
 

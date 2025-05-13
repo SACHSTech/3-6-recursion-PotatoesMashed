@@ -28,7 +28,7 @@ public class T2Questions {
     public static String toBinary(int n){
         if (n>1)
         // recursive case
-        return (n%2)+toBinary(n/2);
+        return toBinary(n/2)+(n%2);
         // base case
         return n+"";
     }
@@ -47,6 +47,7 @@ public class T2Questions {
         System.out.println(isPalindrome("qwertyytrewq"));
         System.out.println(isPalindrome("qwertytrewq"));
         System.out.println(isPalindrome("qwerytrewq"));
+        System.out.println(toBinary(10));
         System.out.println(sumOfDigits(123456));
 
     }

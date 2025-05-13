@@ -43,6 +43,8 @@ public class T3Questions {
         return (temp);
     }
 
+    
+
 
     public static void main(String[] args){
         int[] a={1, 2, 3, 4, 8, 2, 2, 5, 3, 2};
